@@ -13149,9 +13149,10 @@ img::selection {
   left: 0;
   top: 0;
   z-index: 9999999;
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: center;
+  background-color: rgba(248, 249, 250, 0.95) !important;
 }
 
 .dz-preloader-1 {
@@ -13399,12 +13400,12 @@ img::selection {
   }
 }
 .dz-preloader-3 {
-  background-color: var(--bs-light);
+  background-color: #f8f9fa;
 }
 .dz-preloader-3 .preloader-inner {
   display: block;
   --height-of-loader: 4px;
-  --loader-color: var(--bs-primary);
+  --loader-color: #007bff;
   width: 130px;
   height: var(--height-of-loader);
   border-radius: 30px;
